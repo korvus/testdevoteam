@@ -1,0 +1,17 @@
+{
+	"picRootPath": "pictures/slider/",
+  "slides": [
+    {
+    	"caption": "Awesome bicycle products",
+    	"btntxt": "More info",
+    	"href": "/",
+    	"urlpic": "pic0.jpg"
+  	},
+    {
+    	"caption": "Awesome bicycle products 2",
+    	"btntxt": "More info",
+    	"href": "/moreinfo2",
+    	"urlpic": "pic1.jpg"
+  	}
+  ]
+}

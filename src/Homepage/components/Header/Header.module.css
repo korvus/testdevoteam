@@ -1,0 +1,134 @@
+.header {
+	background: #111;
+	color: #fff;
+	justify-content: space-between;
+}
+
+.zoom {
+	padding: 0 2rem;
+	align-self: center;
+}
+
+.burger {
+	top: 3.2rem;
+	background: #000;
+}
+
+.burgerWrapper {
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	padding: 0 1rem 0 2rem;
+	align-items: center;
+}
+
+.label {
+	display: flex;
+	max-width: 10rem;
+	margin-left: 2rem;
+}
+
+.logoWrapper {
+	flex-grow: 2;
+	text-align: center;
+	align-self: center;
+}
+
+.burger a {
+	color: #fff;
+}
+
+.menuRight {
+	margin: 0;
+	padding: 0;
+}
+
+.menuRight li {
+	float: left;
+	border-left: 1px solid #aaa;
+	padding: 2rem;
+}
+
+.notifs {
+	background: #f00;
+	color: #fff;
+	border-radius: 50%;
+	width: 1.2rem;
+	height: 1.2rem;
+	right: -1rem;
+	padding: 0.5rem;
+	top: -1rem;
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: 1;
+}
+
+@media all and (max-width: 800px) {
+	.notifs {
+		width: 0.5rem;
+		height: 0.5rem;
+		font-size: 1rem;
+		padding: 0.5rem;
+		line-height: 0.5;
+	}
+
+	.menuRight li {
+		padding: 1rem;
+	}
+
+	.zoom svg,
+	.icon svg {
+		width: 2rem;
+	}
+
+	.zoom {
+		padding: 0 1rem;
+	}
+
+	.label {
+		display: flex;
+		font-size: 1.4rem;
+		max-width: 6rem;
+		margin-left: 1rem;
+	}
+
+	.logoWrapper img {
+		height: 3rem;
+	}
+}
+
+@media all and (max-width: 530px) {
+	.header {
+		flex-wrap: wrap;
+		min-width: 29rem;
+	}
+
+	.logoWrapper {
+		order: 1;
+		min-width: 100%;
+		border-bottom: 1px solid #fff;
+		padding: 1rem 0;
+	}
+
+	.zoom {
+		order: 2;
+		padding: 0 1rem;
+	}
+
+	.burgerWrapper {
+		order: 3;
+		flex-grow: 2;
+		border-right: none;
+	}
+
+	.menuRight {
+		order: 4;
+	}
+
+	.menuRight li {
+		padding: 1.5rem 1rem;
+	}
+
+	.label {
+		max-width: auto;
+	}
+}

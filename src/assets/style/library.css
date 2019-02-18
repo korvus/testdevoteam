@@ -1,0 +1,51 @@
+/* Allow to use a decimal value for rem units size */
+html {font-size: 62.5%;}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, "Arial", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Set the global font-size to 20px */
+  font-size: 2rem;
+}
+
+/* directly inspired from Tachyons : http://tachyons.io/docs/table-of-styles/ */
+.flex {display: flex;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+.overflow-hidden {overflow: hidden;}
+.fl {float:left;}
+.fr {float:right;}
+.dn {display: none;}
+.db {display: block;}
+.ttu {text-transform: uppercase;}
+.b {font-weight: bold;}
+.tc {text-align: center;}
+.tj {text-align: justify;}
+
+/* mini reset */
+li, ul {
+	list-style-type: none;
+}
+
+/* common */
+.arrow {
+	border-left:1px solid #fff;
+	border-bottom:1px solid #fff;
+	overflow:hidden;
+	display: block;
+	height:2rem;
+	width:2rem;
+	text-indent:-999rem;
+}
+.next {
+	transform: rotate(-135deg);
+	right: 2.4rem;
+}
+
+.prev {
+	transform: rotate(45deg);
+	left: 2.4rem;
+}
